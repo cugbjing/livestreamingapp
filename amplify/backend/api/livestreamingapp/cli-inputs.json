@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "livestreamingapp",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/june/Documents/Projects/livestreamingapp/amplify/backend/api/livestreamingapp/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2023-01-30T05:00:08.015Z",
+      "keyDescription": "public"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authlivestreamingapp8301c71b"
+      }
+    ]
+  }
+}
