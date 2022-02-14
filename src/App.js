@@ -120,7 +120,8 @@ function App() {
             url = {streamUrl}
             width = "100%"
             height = "100%"
-            playing
+            playing = "true"
+            controls = "true"
           />
         </div>
         <div style={{ width:300, border: "1px solid black"}}>
